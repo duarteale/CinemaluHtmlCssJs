@@ -1,0 +1,50 @@
+body, html{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      background:linear-gradient(30deg, rgb(249, 3, 52), rgb(69, 28, 7), indianred, rgb(221, 243, 78));
+      text-align: center !important;
+}
+
+img{
+      width: 150px;
+      height: 200px;
+}
+.tv-show {
+      margin-bottom: 20px; /* Ajusta el margen inferior según tu preferencia */
+      display: flex; /* Usa display flex para alinear las series */
+      flex-direction: column; /* Alinea las series en una columna */
+      align-items: center; /* Centra horizontalmente las series */
+      text-align: center; /* Centra el texto horizontalmente dentro de las series */
+}
+.modal {
+      left: 0;
+      top: 0;
+      width: 100%; /* Ocupar el 100% del ancho de la ventana del navegador */
+      height: 100%; /* Ocupar el 100% del alto de la ventana del navegador */
+      overflow: auto; /* Asegurar que el contenido del modal sea desplazable */
+      background-color: rgba(0, 0, 0, 0.5); /* Establecer el color de fondo del modal */
+}
+.modal-header {
+      background-color: #ffcc00; /* Cambia el color de fondo según tus preferencias */
+}
+
+.modal-title {
+      color: #000000; /* Cambia el color del texto según tus preferencias */
+}
+.modal-content {
+      background-color: #fefefe;
+      margin: 15% auto; /* Centrar el modal verticalmente en la ventana del navegador */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 50%; /* Establecer el ancho del modal */
+      overflow: auto; /* Asegurar que el contenido del modal sea desplazable */
+}
+.movie-container {
+      justify-content: center;
+      border-radius: 15px; /* Contorno redondeado */
+      background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco transparente al 50% */
+      padding: 5px; /* Espaciado interno */
+      opacity: 1;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+}
